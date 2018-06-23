@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F4708F50-B6D9-4AD2-9EDA-157775A33DFD}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReverseString.cs">
+    <Files>
+      <File FileName="ReverseStringTest.cs" Line="32" Column="31" />
+      <File FileName="README.md" Line="1" Column="1" />
+      <File FileName="ReverseString.cs" Line="9" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ReverseString PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
