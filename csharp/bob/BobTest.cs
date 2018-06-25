@@ -82,73 +82,73 @@ public class BobTest
         Assert.Equal("Whoa, chill out!", Bob.Response("ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Shouting_with_no_exclamation_mark()
     {
         Assert.Equal("Whoa, chill out!", Bob.Response("I HATE YOU"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Statement_containing_question_mark()
     {
         Assert.Equal("Whatever.", Bob.Response("Ending with ? means a question."));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Non_letters_with_question()
     {
         Assert.Equal("Sure.", Bob.Response(":) ?"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Prattling_on()
     {
         Assert.Equal("Sure.", Bob.Response("Wait! Hang on. Are you going to be OK?"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Silence()
     {
         Assert.Equal("Fine. Be that way!", Bob.Response(""));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Prolonged_silence()
     {
         Assert.Equal("Fine. Be that way!", Bob.Response("          "));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Alternate_silence()
     {
         Assert.Equal("Fine. Be that way!", Bob.Response("\t\t\t\t\t\t\t\t\t\t"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Multiple_line_question()
     {
         Assert.Equal("Whatever.", Bob.Response("\nDoes this cryogenic chamber make me look fat?\nno"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Starting_with_whitespace()
     {
         Assert.Equal("Whatever.", Bob.Response("         hmmmmmmm..."));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Ending_with_whitespace()
     {
         Assert.Equal("Sure.", Bob.Response("Okay if like my  spacebar  quite a bit?   "));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Other_whitespace()
     {
         Assert.Equal("Fine. Be that way!", Bob.Response("\n\r \t"));
     }
 
-    [Fact(Skip = "Remove to run test")]
+    [Fact]
     public void Non_question_ending_with_whitespace()
     {
         Assert.Equal("Whatever.", Bob.Response("This is a statement ending with whitespace      "));
